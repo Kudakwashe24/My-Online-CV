@@ -1,0 +1,88 @@
+/* Everything in my header */
+header {
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/26213585/thumb/1.jpg");
+    background-attachment: fixed;
+}
+
+/* font size for my header list */
+header li{
+
+    font-size: 30px;
+    
+} 
+
+/* Font color on my icons */
+header i{
+    color: white;
+}
+
+/* Font color when the mouse moves on the icons */
+header i:hover {
+    background-color:pink;
+    color: black;
+}
+
+/* Roller */
+html    {
+    scroll-behavior: smooth;
+}
+
+/* Everything in my body */
+body    {
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/software-company-background-images-4.jpg");
+    font-size: 25px;
+    background-attachment: fixed;
+    font-size: 25px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* My image in the header */
+img {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/* Everything in my footer */
+footer  {
+    background-image: url("https://ak5.picdn.net/shutterstock/videos/26213585/thumb/1.jpg");
+    background-attachment: fixed;
+}
+
+/* All paragraphs */
+p   {
+    text-align: left;
+    font-size: 14px;
+}
+
+/* all headings styles start here */
+h2  {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+h3  {
+    font-size: 25px;
+    font-stretch: narrower;
+    text-align: center;
+    font-family: cursive;
+}
+
+h4  {
+    text-align: center;
+    font-size: 25px;
+
+}
+h5  {
+    font-size: 20px;
+    text-align: left;
+}
+/* All headings styles end here */
+
+/* All my unordered lists */
+ul  {
+    font-size: 14px;
+}
