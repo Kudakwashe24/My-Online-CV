@@ -60,7 +60,7 @@ header {
     color: white;
     font-size: 3.000em;
     font-family: 'Times New Roman', Times, serif;
-    /* text-align: center; */
+    text-align: center;
     display: inline;
     /* white-space: nowrap; */
     /* margin: 0 auto; */
