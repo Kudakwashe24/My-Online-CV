@@ -62,10 +62,10 @@ header {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     display: inline;
-    /* white-space: nowrap; */
-    /* margin: 0 auto; */
-    /* letter-spacing: .15em; */
-    /* max-width: 300px; */
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    max-width: 300px;
     
 }
 .headIntro h2 {
