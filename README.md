@@ -28,10 +28,6 @@ Tools:
 
 ```
 
-### Changelog
-
-2018-10-09:
-
 ## Completed by
 
 Kudakwashe Mukombachoto - 2018
