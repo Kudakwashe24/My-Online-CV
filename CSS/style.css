@@ -32,7 +32,7 @@ ul {
 
 /* Everything in my header */
 header {
-    /* background-image: url("../images/IMG-20181206-WA0001.jpg"); */
+    background-image: url("../images/IMG-20181206-WA0001.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
