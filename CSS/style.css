@@ -69,12 +69,12 @@ header {
     
 }
 .headIntro h2 {
-    /* overflow: hidden;  */
-    /* border-right: .1em solid white; */
-    /* margin-left: 250px; */
-    /* animation:  */
-    /* typing 7s steps(23) forwards, */
-    /* blink-caret .75s step-end infinite; */
+    overflow: hidden; 
+    border-right: .1em solid white;
+    margin-left: 250px;
+    animation: 
+    typing 7s steps(23) forwards,
+    blink-caret .75s step-end infinite;
 }
 
 #occupation {
@@ -172,12 +172,12 @@ ul  {
 
 
 /* The typing effect */
-/* @keyframes typing {
+@keyframes typing {
     from { width: 1% }
     to { width: 55% }
-} */
+}
   /* The typewriter cursor effect */
-/* @keyframes blink-caret {
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: white; }
-} */
+}
