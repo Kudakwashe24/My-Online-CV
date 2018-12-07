@@ -1,4 +1,3 @@
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -79,18 +78,18 @@ header {
 
 #occupation {
     font-size: 30px;
+    font-family: cursive;
+    margin-top: 60px;
 }
 
 
-.me {
+/* .me {
     display: inline;
-}
+} */
 
 /* font size for my header list */
 header li{
-
     font-size: 30px;
-    
 } 
 
 /* Font color on my icons */
@@ -103,6 +102,25 @@ header i:hover {
     background-color:pink;
     color: black;
 }
+
+/* 
+==================================================
+                About Section
+==================================================
+*/
+.grid-container {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid-item2 {
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* 
+==================================================
+            About Section Ends here
+==================================================
+*/
 
 /* Roller */
 html    {
@@ -120,12 +138,7 @@ body    {
     margin: 0;
 }
 
-/* My image in the header */
-img {
-    width: 250px;
-    height: 300px;
-    border-radius: 15px;
-}
+
 
 /* Everything in my footer */
 footer  {
