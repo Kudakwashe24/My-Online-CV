@@ -113,22 +113,23 @@ header i:hover {
 #about_me {
     text-align: center;
 }
-.grid-container {
+.about_me {
     display: grid;
     font-family: 'Courier New', Courier, monospace;
-    grid-template-columns: 50%;
+    grid-template-columns: 100%;
     color: white;
     grid-gap: 10px;
 }
 
-.grid-container >div {
-    background-color: mistyrose;
+.about_me >div {
+    background-color: black;
     text-align: center;
     display: inline;
     padding: 20px;
     height: 100px;
-    padding: 200px;
+    padding: 20px;
 }
+
 
 /* 
 ==================================================
@@ -154,6 +155,30 @@ body    {
 }
 
 
+/* 
+====================================================
+*/
+.work {
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    grid-template-columns: 100%;
+    color: white;
+    grid-gap: 10px;
+}
+
+.work >div {
+    background-color: black;
+    text-align: center;
+    display: inline;
+    padding: 20px;
+    height: 100px;
+    padding: 20px;
+}
+/*
+====================================================
+*/
+
+
 
 /* Everything in my footer */
 footer {
@@ -168,7 +193,7 @@ footer {
 .icons {
     text-align: center;
     word-spacing: 20px;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 h6 {
