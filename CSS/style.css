@@ -108,12 +108,27 @@ header i:hover {
                 About Section
 ==================================================
 */
+
+h2 {
+    text-align: center;
+}
 .grid-container {
+    display: grid;
     font-family: 'Courier New', Courier, monospace;
+    grid-template-columns: 50% 50%;
+    color: white;
+    grid-gap: 10px;
+}
+
+.grid-container >div {
+    background-color: mistyrose;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
 }
 
 .grid-item2 {
-    display: grid;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* 
