@@ -36,6 +36,7 @@ header {
     background-attachment: fixed;
     width: 100%;
     height: 29.000em;
+    margin-bottom: 90px;
 }
 
 .intro-section {
@@ -109,13 +110,13 @@ header i:hover {
 ==================================================
 */
 
-h2 {
+#about_me {
     text-align: center;
 }
 .grid-container {
     display: grid;
     font-family: 'Courier New', Courier, monospace;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50%;
     color: white;
     grid-gap: 10px;
 }
@@ -123,14 +124,12 @@ h2 {
 .grid-container >div {
     background-color: mistyrose;
     text-align: center;
+    display: inline;
     padding: 20px;
     height: 100px;
+    padding: 200px;
 }
 
-.grid-item2 {
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 /* 
 ==================================================
             About Section Ends here
@@ -144,22 +143,43 @@ html    {
 
 /* Everything in my body */
 body    {
-    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b73970e97b923e72be9355cb15099091&w=1000&q=80");
     font-size: 25px;
     background-attachment: fixed;
     font-size: 25px;
     color: white;
     font-family: 'Permanent Marker', cursive;
     margin: 0;
+    background-attachment: fixed;
 }
 
 
 
 /* Everything in my footer */
-footer  {
-    background-image: url("https://ak5.picdn.net/shutterstock/videos/26213585/thumb/1.jpg");
+footer {
+    background-image: url("https://www.wallpaperflare.com/static/178/411/657/himalayas-mountains-landscape-sunset-wallpaper.jpg");
     background-attachment: fixed;
+    background-size: cover;
+    margin-left: -63px;
+    margin-right: -61px;
+    padding: 50px;
 }
+
+.icons {
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 30px;
+}
+
+h6 {
+    text-align: center;
+    margin-top:-15px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: mistyrose;
+
+}
+
 
 /* All paragraphs */
 p   {
