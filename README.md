@@ -9,7 +9,7 @@ I will use the followwing:
  - Css grids
 
 ## Live Link
-- https://kudakwashe24.github.io/My-Online-CV/index.html
+- https://kudakwashe24.github.io/online-cv/index.html
 
 ## Technologies Used
 
