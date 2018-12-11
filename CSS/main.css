@@ -12,41 +12,121 @@ html {
   scroll-behavior: smooth;
 }
 
-.nav {
-  height: 50px;
-  width: 100%;
-  background-color: #4d4d4d;
-  position: fixed;
+/*
+===================================================
+                About Me!!!!!!!!!!
+===================================================
+*/
+.about {
+  padding: 60px 0 25px 0;
+  text-align: center;
 }
 
-.nav > .nav-header {
-  display: inline;
+.about h3 {
+  margin: 0;
+  color: #2b2b2b;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 18px;
+  margin-top: -130px;
 }
 
-.nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  color: #fff;
-  padding: 10px 10px 10px 10px;
+.strip {
+  margin: 28px 0 0px 0;
 }
 
-.nav > .navbar {
-  display: inline;
-  float: right;
-  font-size: 20px;
+.about p {
+  margin: 45px 0 0 0;
+  color: #888b90;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8em;
 }
 
-.nav > .navbar > a {
-  display: inline-block;
-  padding: 13px 10px 13px 10px;
-  text-decoration: none;
-  color: mistyrose;
+/*
+===================================================
+                About Me ends here!!!
+===================================================
+*/
+/*
+===================================================
+                Education starts here!!!
+===================================================
+*/
+.education {
+  padding: 60px 0;
+  background: #eeeeee;
+  text-align: center;
 }
 
-.nav > .navbar > a:hover {
-  color: rgba(0, 0, 0, 0.3);
+.edu-info h3 {
+  margin: 0;
+  color: #2b2b2b;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 18px;
 }
 
+/*
+===================================================
+                Education ends here!!!
+===================================================
+*/
+/*
+===================================================
+            Work Experience starts here!!!
+===================================================
+*/
+.work-info h3 {
+  margin: 0;
+  color: #2b2b2b;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 18px;
+}
+
+.work-experience {
+  padding: 60px 0;
+  background: #eeeeee;
+  text-align: center;
+}
+
+/*
+===================================================
+            Work Experience ends here!!!
+===================================================
+*/
+/*
+===================================================
+            Contact starts here!!!
+===================================================
+*/
+.contact {
+  background: black;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+.contact-info h3 {
+  margin: 0;
+  color: #2b2b2b;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 18px;
+  text-align: center;
+}
+
+/*
+===================================================
+            Contact Ends here!!!
+===================================================
+*/
+/*
+============================================
+            Header Start!!!!
+============================================
+
+*/
 header {
   background-image: url("../images/photo.jpg");
   background-attachment: fixed;
@@ -90,55 +170,17 @@ header {
 }
 
 /*
-===================================================
-                About Me!!!!!!!!!!
-===================================================
+============================================
+            Header Ends!!!!
+============================================
+
 */
-.about {
-  padding: 60px 0 25px 0;
-  text-align: center;
-}
-
-.about h3 {
-  margin: 0;
-  color: #2b2b2b;
-  font-size: 36px;
-  font-weight: 500;
-  letter-spacing: 18px;
-  margin-top: -130px;
-}
-
-.strip {
-  margin: 28px 0 0px 0;
-}
-
-.about p {
-  margin: 45px 0 0 0;
-  color: #888b90;
-  font-size: 18px;
-  font-family: "Lato", sans-serif;
-  line-height: 1.8em;
-}
-
 /*
-===================================================
-                About Me ends here!!!
-===================================================
+============================================
+            Education Start!!!!
+============================================
+
 */
-.education {
-  padding: 60px 0;
-  background: #eeeeee;
-  text-align: center;
-}
-
-.edu-info h3 {
-  margin: 0;
-  color: #2b2b2b;
-  font-size: 36px;
-  font-weight: 500;
-  letter-spacing: 18px;
-}
-
 .edu-grid p {
   margin: 0px auto;
   color: #ffffff;
@@ -209,6 +251,161 @@ header {
 
 .edu-grid {
   position: relative;
+}
+
+/*
+============================================
+            Education Ends!!!!
+============================================
+
+*/
+/*
+===================================================
+            Work Experience starts here!!!
+===================================================
+*/
+.work-grids {
+  margin-top: 50px;
+}
+
+.work-grid h3 {
+  margin: 0;
+  color: #ffffff;
+  background: #52edc7;
+  padding: 9px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.work-grid-info {
+  background: #ffffff;
+  padding: 20px 18px;
+}
+
+.work-grid-info h4 {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-size: 22px;
+  color: #4a4a4a;
+  font-weight: 700;
+}
+
+.work-grid-info h5 {
+  font-family: "Lato", sans-serif;
+  margin: 12px 0 25px 0;
+  font-size: 18px;
+  color: #c1c1c1;
+  font-weight: 500;
+}
+
+.work-grid-info p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.8em;
+  margin: 0;
+  font-size: 18px;
+  color: #888b90;
+  font-weight: 300;
+}
+
+.work-grid {
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  border-bottom: 2px solid #c3c3c3;
+}
+
+/*
+===================================================
+            Work Experience ends here!!!
+===================================================
+*/
+/*
+===================================================
+            Contact starts here!!!
+===================================================
+*/
+.contact-grids {
+  margin-top: 50px;
+}
+
+.contact-grids h3 {
+  color: #2b2b2b;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 25px 0;
+}
+
+.stripb {
+  background: #2b2b2b;
+  width: 30%;
+  height: 1px;
+  margin: 0 0 40px 0;
+}
+
+.contact-left ul {
+  margin: 0px 0 0 0;
+  padding: 0;
+  font-size: 30px;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  background-color: black;
+}
+
+.contact-left ul li {
+  list-style-type: none;
+  font-size: 18px;
+  color: #2b2b2b;
+  font-weight: 500;
+  line-height: 1.8em;
+  font-family: "Lato", sans-serif;
+}
+
+.contact-left ul li a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.contact-left ul li a:hover {
+  color: #ffffff;
+}
+
+/*
+===================================================
+            Contact Ends here!!!
+===================================================
+*/
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: fixed;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .navbar {
+  display: inline;
+  float: right;
+  font-size: 20px;
+}
+
+.nav > .navbar > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: mistyrose;
+}
+
+.nav > .navbar > a:hover {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 #skills_section {
@@ -289,140 +486,7 @@ header {
 #skills_section #skills_boxes #js_box {
   grid-area: js_box;
 }
-#skills_section #skills_boxes #responsive_box {
-  grid-area: responsive_box;
-}
-#skills_section #skills_boxes #git_box {
-  grid-area: git_box;
-}
 
-/*--work--*/
-.work-info h3 {
-  margin: 0;
-  color: #2b2b2b;
-  font-size: 36px;
-  font-weight: 500;
-  letter-spacing: 18px;
-}
-
-.work-experience {
-  padding: 60px 0;
-  background: #eeeeee;
-  text-align: center;
-}
-
-.work-grids {
-  margin-top: 50px;
-}
-
-.work-grid h3 {
-  margin: 0;
-  color: #ffffff;
-  background: #52edc7;
-  padding: 9px 0;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.work-grid-info {
-  background: #ffffff;
-  padding: 20px 18px;
-}
-
-.work-grid-info h4 {
-  font-family: "Lato", sans-serif;
-  margin: 0;
-  font-size: 22px;
-  color: #4a4a4a;
-  font-weight: 700;
-}
-
-.work-grid-info h5 {
-  font-family: "Lato", sans-serif;
-  margin: 12px 0 25px 0;
-  font-size: 18px;
-  color: #c1c1c1;
-  font-weight: 500;
-}
-
-.work-grid-info p {
-  font-family: "Lato", sans-serif;
-  line-height: 1.8em;
-  margin: 0;
-  font-size: 18px;
-  color: #888b90;
-  font-weight: 300;
-}
-
-.work-grid {
-  border: 1px solid #e2e2e2;
-  border-radius: 6px;
-  border-bottom: 2px solid #c3c3c3;
-}
-
-/*--//work--*/
-/*-- contact --*/
-.contact {
-  background: black;
-  padding: 60px 0 0 0;
-  text-align: center;
-}
-
-.contact-info h3 {
-  margin: 0;
-  color: #2b2b2b;
-  font-size: 36px;
-  font-weight: 500;
-  letter-spacing: 18px;
-  text-align: center;
-}
-
-.contact-grids {
-  margin-top: 50px;
-}
-
-.contact-grids h3 {
-  color: #2b2b2b;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0 0 25px 0;
-}
-
-.stripb {
-  background: #2b2b2b;
-  width: 30%;
-  height: 1px;
-  margin: 0 0 40px 0;
-}
-
-.contact-left ul {
-  margin: 0px 0 0 0;
-  padding: 0;
-  font-size: 30px;
-  letter-spacing: 4px;
-  margin-bottom: 30px;
-  background-color: black;
-}
-
-.contact-left ul li {
-  list-style-type: none;
-  font-size: 18px;
-  color: #2b2b2b;
-  font-weight: 500;
-  line-height: 1.8em;
-  font-family: "Lato", sans-serif;
-}
-
-.contact-left ul li a {
-  text-decoration: none;
-  color: #2b2b2b;
-}
-
-.contact-left ul li a:hover {
-  color: #ffffff;
-}
-
-/*-- contact --*/
 @media (max-width: 600px) {
   .nav > .nav-btn {
     display: inline-block;
