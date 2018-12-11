@@ -16,7 +16,7 @@ html {
   height: 50px;
   width: 100%;
   background-color: #4d4d4d;
-  position: relative;
+  position: fixed;
 }
 
 .nav > .nav-header {
@@ -86,6 +86,7 @@ header {
   font-size: 30px;
   font-family: cursive;
   margin-top: 60px;
+  color: white;
 }
 
 /*
@@ -104,6 +105,7 @@ header {
   font-size: 36px;
   font-weight: 500;
   letter-spacing: 18px;
+  margin-top: -130px;
 }
 
 .strip {
@@ -359,6 +361,68 @@ header {
 }
 
 /*--//work--*/
+/*-- contact --*/
+.contact {
+  background: black;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+.contact-info h3 {
+  margin: 0;
+  color: #2b2b2b;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 18px;
+  text-align: center;
+}
+
+.contact-grids {
+  margin-top: 50px;
+}
+
+.contact-grids h3 {
+  color: #2b2b2b;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 25px 0;
+}
+
+.stripb {
+  background: #2b2b2b;
+  width: 30%;
+  height: 1px;
+  margin: 0 0 40px 0;
+}
+
+.contact-left ul {
+  margin: 0px 0 0 0;
+  padding: 0;
+  font-size: 30px;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  background-color: black;
+}
+
+.contact-left ul li {
+  list-style-type: none;
+  font-size: 18px;
+  color: #2b2b2b;
+  font-weight: 500;
+  line-height: 1.8em;
+  font-family: "Lato", sans-serif;
+}
+
+.contact-left ul li a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.contact-left ul li a:hover {
+  color: #ffffff;
+}
+
+/*-- contact --*/
 @media (max-width: 600px) {
   .nav > .nav-btn {
     display: inline-block;
