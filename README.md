@@ -33,6 +33,6 @@ Tools:
 Kudakwashe Mukombachoto - 2018
 
 
-Visit site here: https://kudakwashe24.github.io/My-Online-CV/index.html
+Visit site here: https://kudakwashe24.github.io/online-cv/index.html
 
 Thank You...
