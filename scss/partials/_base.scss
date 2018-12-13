@@ -5,11 +5,13 @@
     box-sizing: border-box;
   }
   
+  whole body styling
   body {
     margin: 0px;
     font-family: 'segoe ui';
   }
   
+  // Smooth scroll from nav bar
   html    {
     scroll-behavior: smooth;
 }
@@ -19,6 +21,7 @@
                 About Me!!!!!!!!!!
 ===================================================
 */
+// About sections
 .about {
   padding: 60px 0 25px 0;
   text-align: center;
@@ -87,6 +90,7 @@
 ===================================================
 */
 
+// Work sections heading
 .work-info h3 {
   margin: 0;
   color: #2b2b2b;
@@ -94,7 +98,7 @@
   font-weight: 500;
   letter-spacing: 18px;
 }
-
+// Work body
 .work-experience {
   padding: 60px 0;
   background: #eeeeee;
@@ -114,12 +118,15 @@
 ===================================================
 */
 
+// Contact section body
 .contact {
   background: black;
   padding: 60px 0 0 0;
   text-align: center;
 }
 
+
+// Heading part
 .contact-info h3 {
   margin: 0;
   color: #2b2b2b;

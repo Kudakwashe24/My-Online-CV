@@ -7,6 +7,7 @@
 
 */
 
+// header image, margin and width
 header { 
     background-image: url("../images/photo.jpg");
     // background-repeat: no-repeat;
@@ -16,11 +17,14 @@ header {
     margin-bottom: 90px;
 }
 
+
+// header intro, padding and text-align
 .intro-section {
     padding: 100px;
     text-align: center;
 }
 
+// the welcome hand, including, margins, color, display, font-size, font-weight 
 .hello {
     margin-top: -5px;
     margin-bottom: -4x;
@@ -33,6 +37,7 @@ header {
     
 }
 
+// header intro 2 font-family and the rest
 .headIntro {
     color: white;
     font-size: 2.000em;
@@ -46,6 +51,7 @@ header {
     
 }
 
+// Junior web developer
 #occupation {
     font-size: 30px;
     font-family: cursive;
@@ -67,7 +73,7 @@ header {
 
 */
 
-
+// Educational style, mainly all in grid form
 .edu-grid p {
     margin: 0px auto;
     color: #ffffff;
@@ -78,6 +84,7 @@ header {
     padding: 3px 0;
 }
 
+// font-size, font-family, background e.t.c
 .edu-grid span {
     margin: 0px auto;
     display: block;
@@ -89,12 +96,14 @@ header {
     padding: 3px 0;
 }
 
+// background and padding
 .edu-grid-master {
 
     background: #52edc7;
     padding: 15px 0;
 }
 
+// margin, color, font-weight
 .edu-grid-master h3 {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -104,6 +113,7 @@ header {
     line-height: 1.8em;
 }
 
+// margin, color, font-weight
 .edu-grid-master h4 {
     font-family: 'Lato', sans-serif;
     margin: 10px 0 0 0;
@@ -112,11 +122,13 @@ header {
     font-weight: 600;
 }
 
+// background and padding
 .edu-grid-info {
     background: #ffffff;
     padding: 25px 30px;
 }
 
+// margin, color, font-weight
 .edu-grid-info h5 {
     font-family: 'Lato', sans-serif;
     line-height: 1.8em;
@@ -126,6 +138,7 @@ header {
     font-weight: 300;
 }
 
+// border, margin-top, border-radius, border-bottom
 .edu-border {
     border: 1px solid #e2e2e2;
     margin-top: 50px;
@@ -133,10 +146,12 @@ header {
     border-bottom: 2px solid #c3c3c3;
 }
 
+// margin-top
 .edu-grids {
     margin-top: 50px;
 }
 
+// Position
 .edu-grid {
     position: relative;
 }
@@ -154,10 +169,12 @@ header {
 ===================================================
 */
 
+// Work section, margin-top
 .work-grids {
     margin-top: 50px;
 }
 
+// margin, color, background, padding, font-size and font-weight
 .work-grid h3 {
     margin: 0;
     color: #ffffff;
@@ -167,11 +184,13 @@ header {
     font-weight: 600;
 }
 
+// background and padding
 .work-grid-info {
     background: #ffffff;
     padding: 20px 18px;
 }
 
+// font-family, margin, font-size,color and font-weight
 .work-grid-info h4 {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -180,6 +199,7 @@ header {
     font-weight: 700;
 }
 
+// font-family, margin, font-size, color
 .work-grid-info h5 {
     font-family: 'Lato', sans-serif;
     margin: 12px 0 25px 0;
@@ -188,6 +208,7 @@ header {
     font-weight: 500;
 }
 
+// font-family, line-height, margin, font-size, color and font-weight
 .work-grid-info p {
     font-family: 'Lato', sans-serif;
     line-height: 1.8em;
@@ -197,6 +218,7 @@ header {
     font-weight: 300;
 }
 
+// border-radius, border, border-bottom
 .work-grid {
     border: 1px solid #e2e2e2;
     border-radius: 6px;
@@ -215,16 +237,19 @@ header {
 ===================================================
 */
 
+// Contact section
 .contact-grids {
     margin-top: 50px;
 }
 
+// color font size, margin
 .contact-grids h3 {
     color: #2b2b2b;
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 25px 0;
 }
+
 
 .stripb {
     background: #2b2b2b;
