@@ -37,12 +37,14 @@
   }
 
 
-// ############################## SKILLS SECTION ##############################
+// SKILLS SECTION
+
 #skills_section {
     grid-area: skills_section;
     height: 700px;
     margin-top: 30px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: -300px;
 
     // SKILLS SECTION HEADER
     #skills_header{
@@ -75,20 +77,9 @@
         grid-gap: 20px;
 
         // SKILLS CARD
-        .skill_card{
-            box-sizing: border-box;
+        .skill_here{
             position: relative;
-            background: #fff;
-            border: 1px solid #dbdbdb;
-            background: #fff;
-            border-radius: 6px;
-            height: 200px;
-            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-            transition: all 200ms ease;
-
-            &:hover{
-                box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
-            }
+            height: 150px;
 
             img{
                 position: absolute;
@@ -107,23 +98,6 @@
                 font-size: 1em;
                 text-align: center;
             }
-        }
-
-        // HTML BOX
-        #html_box{
-            grid-area: html_box;
-        }
-        // CSS BOX
-        #css_box{
-            grid-area: css_box;
-        }
-        // SASS BOX
-        #sass_box{
-            grid-area: sass_box;
-        }
-        // JAVASCRIPT BOX
-        #js_box{
-            grid-area: js_box;
         }
     }
 }

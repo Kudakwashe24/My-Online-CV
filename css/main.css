@@ -20,6 +20,8 @@ html {
 .about {
   padding: 60px 0 25px 0;
   text-align: center;
+  padding: 50px;
+  font-size: 5px;
 }
 
 .about h3 {
@@ -412,14 +414,15 @@ header {
   grid-area: skills_section;
   height: 700px;
   margin-top: 30px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  margin-bottom: -300px;
 }
 #skills_section #skills_header {
   border: 1px solid transparent;
 }
 #skills_section #skills_header h2 {
   text-align: center;
-  color: #393d47;
+  color: black;
   font-size: 2.2em;
 }
 #skills_section #skills_header .underline_sect {
@@ -443,21 +446,11 @@ header {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
-#skills_section #skills_boxes .skill_card {
-  box-sizing: border-box;
+#skills_section #skills_boxes .skill_here {
   position: relative;
-  background: #fff;
-  border: 1px solid #dbdbdb;
-  background: #fff;
-  border-radius: 6px;
-  height: 200px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  transition: all 200ms ease;
+  height: 150px;
 }
-#skills_section #skills_boxes .skill_card:hover {
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
-}
-#skills_section #skills_boxes .skill_card img {
+#skills_section #skills_boxes .skill_here img {
   position: absolute;
   left: 50%;
   top: 40%;
@@ -465,26 +458,14 @@ header {
   height: 50px;
   width: 50px;
 }
-#skills_section #skills_boxes .skill_card p {
+#skills_section #skills_boxes .skill_here p {
   position: absolute;
   left: 50%;
   top: 75%;
   transform: translate(-50%, -50%);
-  color: #393d47;
+  color: black;
   font-size: 1em;
   text-align: center;
-}
-#skills_section #skills_boxes #html_box {
-  grid-area: html_box;
-}
-#skills_section #skills_boxes #css_box {
-  grid-area: css_box;
-}
-#skills_section #skills_boxes #sass_box {
-  grid-area: sass_box;
-}
-#skills_section #skills_boxes #js_box {
-  grid-area: js_box;
 }
 
 @media (max-width: 600px) {
